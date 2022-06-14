@@ -6,7 +6,7 @@ $(function () {
     $('form').submit(function () {
         var reasons = $('textarea[name="reasons"]').val();
         var time1 = $('input[name="time1"]').val();
-        var number = $('input[name="num1"]').val();
+        var num1 = $('input[name="num1"]').val();
         
         // var date = $('input[name="date"]').val();
         // var tool = $('input[name="tool"]').val();
