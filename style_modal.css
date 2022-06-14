@@ -183,7 +183,7 @@ table th {
   }
 }
 /* スマホ幅に適用 */
-@media (max-width: 767px) {
+@media (max-width: 667px) {
   .hp_pc {
     display: none !important;
   }
