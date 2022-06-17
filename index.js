@@ -13,7 +13,7 @@ $(function () {
         // var tool = $('input[name="tool"]').val();
         
         //var msg = `${key}\n朝礼/終礼不参加の理由：${reasons}\n返信期限：${date}\n使用ツール：${tool}`;
-    var msg = `${reasons} \n${time1} \n${num1} \n${breed}`;
+    var msg = `ご注文内容：\n${reasons} \n${time1} \n${num1} \n${breed}`;
         sendText(msg);
 
         return false;
