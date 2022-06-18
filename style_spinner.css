@@ -9,7 +9,7 @@
 }
 
 .spinner {
-  width: 130px;
+  width: 70px;
   padding: 0;
   text-align: center;
   border: none;
@@ -26,16 +26,16 @@
 .spinner-sub,
 .spinner-add {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 35px;
+  height: 35px;
   text-align: center;
-  border: 2px solid #000;
+  border: 1px solid #000;
   border-radius: 50%;
   cursor: pointer;
-  line-height: 60px;
+  line-height: 35px;
 }
 
 .disabled {
-  opacity: 0.6;
+  opacity: 0.3;
   cursor: inherit;
 }
