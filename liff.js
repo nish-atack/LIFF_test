@@ -32,8 +32,8 @@ function sendText(text) {
         "packageId": "11539",
         "stickerId": "52114113"
         
-//    }]).then(function () {  
-//        liff.closeWindow();
+    }]).then(function () {  
+        liff.closeWindow();
         
     }).catch(function (error) {
         window.alert('Failed to send message ' + error);
