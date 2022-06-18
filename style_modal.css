@@ -40,7 +40,7 @@ img {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height:100%;
 }
 .js_modalWrap.active {
   animation: modalOpen 0.3s ease forwards;
@@ -58,14 +58,14 @@ img {
 }
 .js_modalContInner {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  width: 720px;
+  width: 520px;       //画像の横幅
   max-width: 100%;
   background-color: #fff;
   max-height: 600px;
-  padding: 40px;
+  padding: 30px;
 }
 .js_modalCont {
   overflow-y: scroll;
@@ -75,7 +75,8 @@ img {
   margin-top: 10px;
 }
 .js_modalContInner > .js_modalClose + * {
-  margin-top: 0;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 .js_modalClose {
   display: block;
@@ -177,13 +178,13 @@ table th {
 }
 
 /* PC幅に適用 */
-@media (min-width: 668px) {
+@media (min-width: 667px) {
   .hp_sp {
     display: none !important;
   }
 }
 /* スマホ幅に適用 */
-@media (max-width: 567px) {
+@media (max-width: 667px) {
   .hp_pc {
     display: none !important;
   }
@@ -192,7 +193,7 @@ table th {
     padding: 20px;
   }
   .js_modalCont {
-    max-height: 360px;
+    max-height: 300px;
   }
   .js_modalClose {
     top: -30px;
