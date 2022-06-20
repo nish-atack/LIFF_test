@@ -7,10 +7,10 @@ $(function () {
      
         //var time0 = $('input[name="time1"]').val();
         //var num0 = $('input[name="num1"]').val();
-        //var breed0 = $('input[name="breed"]').val();
+        var breed0 = $('input[name="breed"]').val();
         
-        var breed0 = obj.filter(function(input) {
-  return input.name.match(/breed/);
+        //var breed0 = obj.filter(function(input) {
+  //return input.name.match(/breed/);
 });
         
         
