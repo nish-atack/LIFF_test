@@ -1,9 +1,6 @@
 var params = (new URL(document.location)).searchParams;
 var key = params.get('key');
 
-  //var breed = input.filter(function(input) {
-  //return input.name.match(/breed/);});
-
 $(function () {
     // 送信
     $('form').submit(function () {
@@ -15,7 +12,8 @@ $(function () {
         // var date = $('input[name="date"]').val();
         // var tool = $('input[name="tool"]').val();
         
-
+  //var breed = obj.filter(function(input) {
+  //return input.name.match(/breed/);});
    
        
         
@@ -27,6 +25,3 @@ $(function () {
         return false;
     });
 });
-
-
-
