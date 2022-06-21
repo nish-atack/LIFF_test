@@ -27,15 +27,12 @@ function sendText(text) {
     liff.sendMessages([{
         'type': 'text',
         'text': text
-    }
-                       
- ,{
+    },{
        "type": "sticker",
         "packageId": "11539",
         "stickerId": "52114113"
         
-  }
-            ]).then(function () {  
+  }]).then(function () {  
         liff.closeWindow();
         
     }).catch(function (error) {
