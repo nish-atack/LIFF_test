@@ -7,13 +7,13 @@ $(function () {
         var reasons = $('textarea[name="reasons"]').val();
         var time1 = $('input[name="time1"]').val();
         var num1 = $('input[name="num1"]').val();
-        var breed = $('input[name="breed"]').val();
+        //var breed = $('input[name="breed"]').val();
         
         // var date = $('input[name="date"]').val();
         // var tool = $('input[name="tool"]').val();
         
-  //var breed = obj.filter(function(input) {
-  //return input.name.match(/breed/);});
+  var breed = input.filter(function(input) {
+  return input.name.match(/breed/);});
    
        
         
